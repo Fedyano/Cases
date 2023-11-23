@@ -12,6 +12,11 @@
 		2AA9F7E12B0BFB4400F8C22E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7E02B0BFB4400F8C22E /* Item.swift */; };
 		2AA9F7E32B0BFB4600F8C22E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA9F7E22B0BFB4600F8C22E /* Assets.xcassets */; };
 		2AA9F7E72B0BFB4600F8C22E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA9F7E62B0BFB4600F8C22E /* Preview Assets.xcassets */; };
+		2AA9F7EF2B0BFBDD00F8C22E /* SheetWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7EE2B0BFBDD00F8C22E /* SheetWithData.swift */; };
+		2AA9F7F42B0F2FC800F8C22E /* NavigationStack_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7F32B0F2FC800F8C22E /* NavigationStack_1.swift */; };
+		2AA9F7F62B0FB2BF00F8C22E /* NavigationStackTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7F52B0FB2BF00F8C22E /* NavigationStackTitle.swift */; };
+		2AA9F7F82B0FBA5D00F8C22E /* NavigationStackButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7F72B0FBA5D00F8C22E /* NavigationStackButtons.swift */; };
+		2AA9F7FB2B0FECE400F8C22E /* NSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7FA2B0FECE400F8C22E /* NSContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		2AA9F7E22B0BFB4600F8C22E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AA9F7E42B0BFB4600F8C22E /* Cases.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cases.entitlements; sourceTree = "<group>"; };
 		2AA9F7E62B0BFB4600F8C22E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AA9F7EE2B0BFBDD00F8C22E /* SheetWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetWithData.swift; sourceTree = "<group>"; };
+		2AA9F7F32B0F2FC800F8C22E /* NavigationStack_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack_1.swift; sourceTree = "<group>"; };
+		2AA9F7F52B0FB2BF00F8C22E /* NavigationStackTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackTitle.swift; sourceTree = "<group>"; };
+		2AA9F7F72B0FBA5D00F8C22E /* NavigationStackButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackButtons.swift; sourceTree = "<group>"; };
+		2AA9F7FA2B0FECE400F8C22E /* NSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,8 @@
 		2AA9F7DB2B0BFB4400F8C22E /* Cases */ = {
 			isa = PBXGroup;
 			children = (
+				2AA9F7F12B0F2F7D00F8C22E /* BookSwiftUI */,
+				2AA9F7ED2B0BFB6A00F8C22E /* documentation */,
 				2AA9F7DC2B0BFB4400F8C22E /* CasesApp.swift */,
 				2AA9F7DE2B0BFB4400F8C22E /* ContentView.swift */,
 				2AA9F7E02B0BFB4400F8C22E /* Item.swift */,
@@ -70,6 +82,49 @@
 				2AA9F7E62B0BFB4600F8C22E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AA9F7ED2B0BFB6A00F8C22E /* documentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7F02B0C6D0900F8C22E /* ModalPresentation */,
+			);
+			path = documentation;
+			sourceTree = "<group>";
+		};
+		2AA9F7F02B0C6D0900F8C22E /* ModalPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7EE2B0BFBDD00F8C22E /* SheetWithData.swift */,
+			);
+			path = ModalPresentation;
+			sourceTree = "<group>";
+		};
+		2AA9F7F12B0F2F7D00F8C22E /* BookSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7F22B0F2F9300F8C22E /* NNavigationStack */,
+			);
+			path = BookSwiftUI;
+			sourceTree = "<group>";
+		};
+		2AA9F7F22B0F2F9300F8C22E /* NNavigationStack */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7F92B0FECA400F8C22E /* NavigationStackStructures */,
+				2AA9F7F32B0F2FC800F8C22E /* NavigationStack_1.swift */,
+				2AA9F7F52B0FB2BF00F8C22E /* NavigationStackTitle.swift */,
+				2AA9F7F72B0FBA5D00F8C22E /* NavigationStackButtons.swift */,
+			);
+			path = NNavigationStack;
+			sourceTree = "<group>";
+		};
+		2AA9F7F92B0FECA400F8C22E /* NavigationStackStructures */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7FA2B0FECE400F8C22E /* NSContentView.swift */,
+			);
+			path = NavigationStackStructures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA9F7F42B0F2FC800F8C22E /* NavigationStack_1.swift in Sources */,
 				2AA9F7DF2B0BFB4400F8C22E /* ContentView.swift in Sources */,
+				2AA9F7EF2B0BFBDD00F8C22E /* SheetWithData.swift in Sources */,
+				2AA9F7F82B0FBA5D00F8C22E /* NavigationStackButtons.swift in Sources */,
 				2AA9F7E12B0BFB4400F8C22E /* Item.swift in Sources */,
+				2AA9F7FB2B0FECE400F8C22E /* NSContentView.swift in Sources */,
 				2AA9F7DD2B0BFB4400F8C22E /* CasesApp.swift in Sources */,
+				2AA9F7F62B0FB2BF00F8C22E /* NavigationStackTitle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
