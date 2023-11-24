@@ -18,6 +18,8 @@
 		2AA9F7F82B0FBA5D00F8C22E /* NavigationStackButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7F72B0FBA5D00F8C22E /* NavigationStackButtons.swift */; };
 		2AA9F7FB2B0FECE400F8C22E /* NSContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7FA2B0FECE400F8C22E /* NSContentView.swift */; };
 		2AA9F7FD2B0FF25900F8C22E /* SeparateFileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7FC2B0FF25900F8C22E /* SeparateFileView.swift */; };
+		2AA9F8002B10C71700F8C22E /* NSPDContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F7FF2B10C71700F8C22E /* NSPDContentView.swift */; };
+		2AA9F8022B10D55A00F8C22E /* SeparateFileVieww.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA9F8012B10D55A00F8C22E /* SeparateFileVieww.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		2AA9F7F72B0FBA5D00F8C22E /* NavigationStackButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackButtons.swift; sourceTree = "<group>"; };
 		2AA9F7FA2B0FECE400F8C22E /* NSContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSContentView.swift; sourceTree = "<group>"; };
 		2AA9F7FC2B0FF25900F8C22E /* SeparateFileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateFileView.swift; sourceTree = "<group>"; };
+		2AA9F7FF2B10C71700F8C22E /* NSPDContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSPDContentView.swift; sourceTree = "<group>"; };
+		2AA9F8012B10D55A00F8C22E /* SeparateFileVieww.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateFileVieww.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,7 @@
 		2AA9F7F22B0F2F9300F8C22E /* NNavigationStack */ = {
 			isa = PBXGroup;
 			children = (
+				2AA9F7FE2B10C6EA00F8C22E /* NavigationStackPassData */,
 				2AA9F7F92B0FECA400F8C22E /* NavigationStackStructures */,
 				2AA9F7F32B0F2FC800F8C22E /* NavigationStack_1.swift */,
 				2AA9F7F52B0FB2BF00F8C22E /* NavigationStackTitle.swift */,
@@ -128,6 +133,15 @@
 				2AA9F7FC2B0FF25900F8C22E /* SeparateFileView.swift */,
 			);
 			path = NavigationStackStructures;
+			sourceTree = "<group>";
+		};
+		2AA9F7FE2B10C6EA00F8C22E /* NavigationStackPassData */ = {
+			isa = PBXGroup;
+			children = (
+				2AA9F7FF2B10C71700F8C22E /* NSPDContentView.swift */,
+				2AA9F8012B10D55A00F8C22E /* SeparateFileVieww.swift */,
+			);
+			path = NavigationStackPassData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +220,9 @@
 				2AA9F7F82B0FBA5D00F8C22E /* NavigationStackButtons.swift in Sources */,
 				2AA9F7E12B0BFB4400F8C22E /* Item.swift in Sources */,
 				2AA9F7FB2B0FECE400F8C22E /* NSContentView.swift in Sources */,
+				2AA9F8022B10D55A00F8C22E /* SeparateFileVieww.swift in Sources */,
 				2AA9F7DD2B0BFB4400F8C22E /* CasesApp.swift in Sources */,
+				2AA9F8002B10C71700F8C22E /* NSPDContentView.swift in Sources */,
 				2AA9F7FD2B0FF25900F8C22E /* SeparateFileView.swift in Sources */,
 				2AA9F7F62B0FB2BF00F8C22E /* NavigationStackTitle.swift in Sources */,
 			);
